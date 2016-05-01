@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5ccb42aa8bbdce955f8cdeefccfaa01654303622
 //
 //  SpiderMan.m
 //  Singleton-SpiderMan
@@ -11,6 +14,7 @@
 
 @implementation SpiderMan
 
+<<<<<<< HEAD
 static id _instance;
 
 + (id)allocWithZone:(struct _NSZone *)zone
@@ -43,3 +47,6 @@ static id _instance;
 }
 
 @end
+=======
+@end
+>>>>>>> 5ccb42aa8bbdce955f8cdeefccfaa01654303622
