@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface SpiderMan : NSObject
-
++ (instancetype)shanreSpiderMan;
 @end

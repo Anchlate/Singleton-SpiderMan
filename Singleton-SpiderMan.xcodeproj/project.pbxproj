@@ -13,6 +13,8 @@
 		7EAEE9FA1CD5D6B700C0E899 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EAEE9F81CD5D6B700C0E899 /* Main.storyboard */; };
 		7EAEE9FC1CD5D6B700C0E899 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EAEE9FB1CD5D6B700C0E899 /* Assets.xcassets */; };
 		7EAEE9FF1CD5D6B700C0E899 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EAEE9FD1CD5D6B700C0E899 /* LaunchScreen.storyboard */; };
+		7EAEEA081CD5D6D500C0E899 /* SpiderMan.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAEEA071CD5D6D500C0E899 /* SpiderMan.m */; };
+		7EAEEA0B1CD5F0D000C0E899 /* Peoper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAEEA0A1CD5F0D000C0E899 /* Peoper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		7EAEE9FB1CD5D6B700C0E899 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EAEE9FE1CD5D6B700C0E899 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EAEEA001CD5D6B700C0E899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EAEEA061CD5D6D500C0E899 /* SpiderMan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpiderMan.h; sourceTree = "<group>"; };
+		7EAEEA071CD5D6D500C0E899 /* SpiderMan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpiderMan.m; sourceTree = "<group>"; };
+		7EAEEA091CD5F0D000C0E899 /* Peoper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Peoper.h; sourceTree = "<group>"; };
+		7EAEEA0A1CD5F0D000C0E899 /* Peoper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Peoper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +68,15 @@
 				7EAEE9F31CD5D6B700C0E899 /* AppDelegate.m */,
 				7EAEE9F51CD5D6B700C0E899 /* ViewController.h */,
 				7EAEE9F61CD5D6B700C0E899 /* ViewController.m */,
+				7EAEEA061CD5D6D500C0E899 /* SpiderMan.h */,
+				7EAEEA071CD5D6D500C0E899 /* SpiderMan.m */,
 				7EAEE9F81CD5D6B700C0E899 /* Main.storyboard */,
 				7EAEE9FB1CD5D6B700C0E899 /* Assets.xcassets */,
 				7EAEE9FD1CD5D6B700C0E899 /* LaunchScreen.storyboard */,
 				7EAEEA001CD5D6B700C0E899 /* Info.plist */,
 				7EAEE9EF1CD5D6B700C0E899 /* Supporting Files */,
+				7EAEEA091CD5F0D000C0E899 /* Peoper.h */,
+				7EAEEA0A1CD5F0D000C0E899 /* Peoper.m */,
 			);
 			path = "Singleton-SpiderMan";
 			sourceTree = "<group>";
@@ -150,8 +160,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EAEE9F71CD5D6B700C0E899 /* ViewController.m in Sources */,
+				7EAEEA081CD5D6D500C0E899 /* SpiderMan.m in Sources */,
 				7EAEE9F41CD5D6B700C0E899 /* AppDelegate.m in Sources */,
 				7EAEE9F11CD5D6B700C0E899 /* main.m in Sources */,
+				7EAEEA0B1CD5F0D000C0E899 /* Peoper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +314,7 @@
 				7EAEEA051CD5D6B700C0E899 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
